@@ -45,6 +45,7 @@ cv2.createTrackbar("Max V", "image", int(upper[2]), 255, on_trackbar_change)
 
 # Show HSV image
 cv2.imshow("image", hsv)
+cv2.imshow("image", image)
 
 while True:
     # Get trackbar positions and set lower/upper bounds
